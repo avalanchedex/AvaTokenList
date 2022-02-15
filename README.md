@@ -2,7 +2,7 @@
 
 Token Lists is a specification for lists of token metadata (e.g. address, decimals, etc.) that can be used by any dApp
 interfaces that needs one or more lists of tokens. Anyone can create and maintain a token list, as long as they follow
-the specification. The Pangolin community invites you to add your token to our tokenlists!
+the specification. The Blackbullswap community invites you to add your token to our tokenlists!
 
 
 ## Adding Your Token to an Existing List
@@ -23,12 +23,12 @@ the specification. The Pangolin community invites you to add your token to our t
 1. Add an entry in the `tokens` field of the appropriate tokenlist. Please use the [checksum address](https://docs.ethers.io/v5/api/utils/address/#address). Here is an example using PNG:
     ```json
     {
-        "address": "0x60781C2586D68229fde47564546784ab3fACA982",
+        "address": "0x9eF7c46dd224Fd6CDF7e33928eAF2eAf71a5eEcd",
         "chainId": 43114,
-        "name": "Pangolin",
-        "symbol": "PNG",
+        "name": "Blackbullswap",
+        "symbol": "BBULL",
         "decimals": 18,
-        "logoURI": "https://raw.githubusercontent.com/ava-labs/bridge-tokens/main/avalanche-tokens/0x60781C2586D68229fde47564546784ab3fACA982/logo.png"
+        "logoURI": "https://raw.githubusercontent.com/blackbullswap/tokenList/main/assets/0x9eF7c46dd224Fd6CDF7e33928eAF2eAf71a5eEcd/logo.png"
     }
     ```
 2. Update the `timestamp` field to the current timestamp.
@@ -43,9 +43,9 @@ the specification. The Pangolin community invites you to add your token to our t
 
 ## Creating Your Own List
 
-List creation is encouraged! The Pangolin team wants the community to develop their own lists and will not gatekeep new lists.
+List creation is encouraged! The Blackbullswap team wants the community to develop their own lists and will not gatekeep new lists.
 
 
 ## Adding Your Token Logo
 
-Token logos are [hosted here](https://github.com/pangolindex/tokens).
+Token logos are [hosted here](https://github.com/blackbullswap/tokenList).
